@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-
+import mainLogo from '../corner-logo.png'
 class Header extends Component {
   render() {
     return (
         <header className="App-header">
-            <h1 className="App-title">YEBOlab</h1>
+            <img className='mainLogo' src={mainLogo} alt='logo'/>
+            <h1>YEBOlab</h1>
       </header>
     );
   }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../Yebo-logo.png'
+import logo from '../yebo-logo.png'
 
 class Landing extends Component {
   render() {
@@ -7,6 +7,7 @@ class Landing extends Component {
       <div className='landing'>
           <header>
              <img className='logo' src={logo} />
+             <h1>Relevent. Innovative. Impactful.</h1>
           </header>
 
       </div>

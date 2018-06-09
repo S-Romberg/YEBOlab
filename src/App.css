@@ -4,5 +4,19 @@
 .landing {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
   background-color: black;
+  color: white;
+}
+.App-header {
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 10vh;
+  font-family: 'Fredoka One', cursive;
+  letter-spacing: 1em;
+}
+.mainLogo {
+  height: 8vh;
 }
