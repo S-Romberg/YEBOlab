@@ -4,8 +4,8 @@ class Header extends Component {
   render() {
     return (
         <header className="App-header">
-            <img className='mainLogo' src={mainLogo} alt='logo'/>
-            <h1>YEBOlab</h1>
+            <img className='main-logo' src={mainLogo} alt='logo'/>
+            <h1>YEBOLab</h1>
       </header>
     );
   }

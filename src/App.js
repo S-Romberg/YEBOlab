@@ -11,7 +11,7 @@ class App extends Component {
   constructor(props){
     super(props)
     this.state = {
-      Landing: false
+      Landing: true
     }
   }
 
@@ -22,15 +22,24 @@ class App extends Component {
   render() {
 
     return (
-      <div className="App">
+      <div className="App Site">
       {this.state.Landing ? 
-        <Landing /> :
         <div>
         <Header />
+        <div className="Site-content">
+        <Landing /> 
+        </div>
+        <Footer />
+        </div> :
+        <div>
+        <Header />
+        <div className="Site-content">
+        </div>
         <Footer />
         </div> }
+    
       </div>
-    );
+        )
   }
 }
 
